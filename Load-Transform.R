@@ -52,4 +52,4 @@ pumpkins2$place[pumpkins2$place == 'DMG'] <- -2
 #  Then convert to numeric
 pumpkins2$place <- as.numeric(pumpkins2$place)
 
-first <- pumpkins2[pumpkins2$place == 1,]
+
