@@ -1,3 +1,5 @@
+windows(12, 9) # set window to a 4:3 ratio
+
 #Create Histograms of Fruit Sizes
 
 #Create variable for max size for each type of fruit
@@ -189,4 +191,4 @@ text(x = 0.1, y = 0.5,
      labels = "data from BigPumpkins.com")
 text(x = 0.8, y = 0.5, 
      labels = 'Plot by Dick Brown | @dikbrown | linkedin.com/in/dickbrown')
-
+close.screen(all = TRUE)
